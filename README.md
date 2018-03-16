@@ -1,7 +1,7 @@
-# Risset_MaxPatches-
+# Risset_MaxPatches
 This repository contains Max/MSP versions and adaptations of Jean-Claude Risset's Music V orchestras and scores.
 
-# MaxPatches
+# Max/MSP Patches
 In this folder you'll find some Max/MSP patches versions of Jean-Claude Risset's work.
 This is a work I've started in 2000-2001.
 Since then, Max/MSP developed a lot, but I decided to keep some patches unchanged in their core design.
