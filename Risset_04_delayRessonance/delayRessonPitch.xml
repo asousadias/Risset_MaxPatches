@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "delayRessonPitch">
+	<slot number = "1" name = "Si chord">
+		<patcher name = "delayChord">
+			<pattr name = "FBlevel" value = "0.99" />
+			<pattr name = "FBphase" value = "0" />
+			<pattr name = "resLevels" value = "1. 0.853333 0.853333 0.826667 0.88 1. 0.92" />
+			<pattr name = "resPitch0" value = "23" />
+			<pattr name = "resPitch1" value = "47" />
+			<pattr name = "resPitch2" value = "63" />
+			<pattr name = "resPitch3" value = "69" />
+			<pattr name = "resPitch4" value = "74" />
+			<pattr name = "resPitch5" value = "86" />
+			<pattr name = "resTime2NextPitch" value = "100" />
+		</patcher>
+	</slot>
+	<slot number = "2" name = "Do# 9+">
+		<patcher name = "delayChord">
+			<pattr name = "FBlevel" value = "0.99" />
+			<pattr name = "FBphase" value = "0" />
+			<pattr name = "resLevels" value = "1. 0.853333 0.853333 0.826667 0.88 1. 1." />
+			<pattr name = "resPitch0" value = "25" />
+			<pattr name = "resPitch1" value = "37" />
+			<pattr name = "resPitch2" value = "83" />
+			<pattr name = "resPitch3" value = "91" />
+			<pattr name = "resPitch4" value = "89" />
+			<pattr name = "resPitch5" value = "100" />
+			<pattr name = "resTime2NextPitch" value = "100" />
+		</patcher>
+	</slot>
+</pattrstorage>
+
