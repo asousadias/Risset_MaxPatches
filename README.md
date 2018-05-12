@@ -43,9 +43,8 @@ To design this patches I used mainly the following sources:<br>
 These patches are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.<br>
 
 
-
-Faculdade de Belas-Artes,<br>
-Universidade de Lisboa<br>
+Antonio de Sousa Dias<br>
+Faculdade de Belas-Artes, Universidade de Lisboa<br>
 Largo da Academia Nacional de Belas-Artes<br>
 1249-058 Lisboa, Portugal<br>
 http://www.belasartes.ulisboa.pt/
