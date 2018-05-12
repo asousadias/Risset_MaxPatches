@@ -1,4 +1,4 @@
-# Risset_MaxPatches
+# Jean-Claude Risset's Music V adaptations to MAxMSP
 This repository contains Max/MSP versions and adaptations of Jean-Claude Risset's Music V orchestras and scores.<br>
 NOTE: Update still inprogress due to Max changes.
 
@@ -9,7 +9,7 @@ a.sousadias@belasartes.ulisboa.pt
 
 # Description (notes from 2009)
 In this folder you'll find some Max/MSP patches versions of Jean-Claude Risset's work.<br>
-This is a work I've started in 2000-2001.
+This is a work I've started in 2000-2001.<br>
 Since then, Max/MSP developed a lot, but I decided to keep some patches unchanged in their core design. <br>
 For example, in the <R01-Risset-Cloches> folder, you'll notice that the patch <Bell - 2Csound.pat> could use the poly~ object. Another example, the tricky use of the coll object (as an interpolator in the <cascadeHarmonique.pat>) instead of the more recent pattr object familly.
 
@@ -34,12 +34,10 @@ To design this patches I used mainly the following sources:<br>
 
 
 # Revision history:
-- 2018, March 17: more improvements and minor changes
+- 2018, March 17: Release on GitHub of __Risset_04_delayRessonance__. Some improvements and minor changes
 - 2007, April 10:
   - start to improve ergonomics
   - new Paradoxical Sounds Version (see <ParadoxicalSoundsV2.pat>)
-
-
 
 # Disclaimer:
 These patches are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
