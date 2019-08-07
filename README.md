@@ -11,11 +11,10 @@ a.sousadias@belasartes.ulisboa.pt
 In this folder you'll find some Max/MSP patches versions of Jean-Claude Risset's work.<br>
 This is a work I've started in 2000-2001.<br>
 Since then, Max/MSP developed a lot, but I decided to keep some patches unchanged in their core design. <br>
-For example, in the <R01-Risset-Cloches> folder, you'll notice that the patch <Bell - 2Csound.pat> could use the poly~ object. Another example, the tricky use of the coll object (as an interpolator in the <cascadeHarmonique.pat>) instead of the more recent pattr object familly.
 
 ## Patch List
 - Risset_01_Cloches (_not yet: under revision_)<br>
-- Risset_02_Cascade (_not yet: under revision_)<br>
+- Risset_02_HarmonicCascade<br>
 - Risset_03_ParadoxicalSounds (_not yet: under revision_)<br>
 - Risset_04_delayRessonance
 
@@ -34,6 +33,7 @@ To design this patches I used mainly the following sources:<br>
 
 
 ## Revision history:
+- 2019, August 7: Release on GitHub of _Risset_02_HarmonicCascade_ for Max8. Improved version.
 - 2018, March 17: Release on GitHub of _Risset_04_delayRessonance_. Some improvements and minor changes
 - 2007, April 10:
   - start to improve ergonomics
