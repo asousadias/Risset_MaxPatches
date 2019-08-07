@@ -7,7 +7,7 @@ Antonio de SOUSA DIAS<br>
 a.sousadias@belasartes.ulisboa.pt
 
 
-## Description
+## Description (Sousa Dias, 2005)
 The Harmonic Cascade results from the application of the phenomenon known as beats, applied to the case where there are many components. To better understand the issue, we explain the phenomenon with only two components. The formula that translates it is as follows:<br/>
 `sin (w1) + sin (w2) = 2.sin((w1 + w2) / 2).cos((w1-w2) / 2)`<br/>
 with `w1 = 2πf1` and `w2 = 2πf2`.<br/>
@@ -17,15 +17,23 @@ imposes an amplitude modulation on the signal, especially if the frequencies `f1
 Thus, this patch realizes the implementation of the harmonic cascade with, according to us, two interesting characteristics:<br/>
 - the waveform is editable, either in real time or one harmonic at a time, although the table used is limited to the use of the first 64 harmonics of a sound;<br/>
 - the waveform can result from the interpolation between two waveforms; this creates a double movement: the movement of the intertwining of the beats of the harmonics and the transformation of these concerning the composition of the spectrum.<br/>
+
 The other characteristics of the patch concern the control of the parameters like the speed of the cascade, which can be defined in Herz or in seconds.<br/>
-(adap. Sousa Dias, 2005)<br/>
 
 ## Patch List
-- \_jcr.HarmonicCascade.maxpat - The main HarmonicCascade patch<br/>
+- __\_jcr.HarmonicCascade.maxpat__ - The main HarmonicCascade patch<br/>
 - jcr.HarmonicCascade-Spectra.json - A collection of spectra<br/>
 - jcr.HarmonicCascade-SPeditor.maxpat - A simple spectra editor<br/>
 - jcr.HarmonicCascade-SPinterpolator.maxpat - A spectra interpolator<br/>
 - README.md - This README file.<br/>
+
+## Operation Mode
+Launch the _\_jcr.HarmonicCascade.maxpat_.
+Start audio.
+In the spectra multislider, draw some harmonic amplitudes. Set cycle offset.
+Play some notes on the keyboard slider.
+Additionaly you can launch the editor and the interpolator patches to make easier patch management.
+NOTE: Due to harmonic relationships, you can get better results with lower notes and lower harmonics.
 
 ## References
 To design this patch I used mainly the following sources:<br>
