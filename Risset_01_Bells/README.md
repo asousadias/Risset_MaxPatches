@@ -7,12 +7,12 @@ a.sousadias@belasartes.ulisboa.pt
 
 
 ## Description
-The implementation of bells according to the models described by Risset and coded according to the information of Lorrain (1985), Dodge (1985) and Risset (1995, 1989) allowed me to realize a Max/MSP patch in the early 2000s to obtain these sounds.<br>
-This work allowed Daniel Arfib to adapt them to another more developed and flexible patch (Risset et al. 2002). I have taken this patch by introducing modifications to study the new possibilities offered by the `poly~` object whose implementation on Max/MSP was quite recent at the time.<br>
-Thus, the work of Jean-Claude Risset, _Resonant Sound Spaces_, uses a patch, `plf6`, based on an implementation in Music V. It allows to generate inharmonic structures. By replacing the copies of the bell-abs patch with its integration into the `poly~` object, as well as replacing the break point function editor objects with the `zigzag~` object, our implementation allows:<br>
-- a "quasi-polyphony": sending the triggers of the successive components in a circular manner to the `poly~` object, set to 50 voices, allows a "parallel sequentiality";<br>
-- the use of structural definitions with a variable number of components: in the version for _Resonant Sound Spaces_, the structures are always defined by 11 components, while in _Inharmonique_, the structures had a variable number of components.<br>
- (Sousa Dias, 2005)
+Regarding `B1-BellExample`, the bells the models described by Risset according to information in Lorrain (1985), Dodge (1985) and Risset (1995, 1989) allowed me to programm a Max/MSP patch in the early 2000s to obtain these sounds.<br>
+This work was subsequently adapted by Daniel Arfib to another more developed and flexible patch for the composition of  Risset's _Resonant Sound Spaces_ (Risset et al. 2002). In return, I have taken this patch by introducing modifications to study the new possibilities offered by the `poly~` object whose implementation on Max/MSP was quite recent at the time.<br>
+Thus, the `B2-Resonant Sound Spaces` folder, is this revised version of the patch `plf6`, allowing to generate inharmonic structures. By replacing the copies of the `bell-abs` patch with its integration into the `poly~` object, as well as replacing the break point function editor objects with the `zigzag~` object, this implementation allows:<br>
+- a "quasi-polyphony": sending the triggers of the successive components in a circular manner to the `poly~` object, set to 50 voices, allowing a "parallel sequentiality";<br>
+- the use of structural definitions with a variable number of components: in the version for _Resonant Sound Spaces_, the structures are always defined by 11 components, while in the work _Inharmonique_, the structures had a variable number of components wich are retained in this implementation.<br>
+(Sousa Dias, 2005)
 
 ## Patch List
 - B1-BellExample - a simple patch with a bell component abstraction:.<br>
