@@ -13,7 +13,7 @@ This is a work I've started in 2000-2001.<br>
 Since then, Max/MSP developed a lot, but I decided to keep some patches unchanged in their core design. <br>
 
 ## Patch List
-- Risset_01_Cloches (_not yet: under revision_)<br>
+- Risset_01_Bell (_under revision_)<br>
 - Risset_02_HarmonicCascade<br>
 - Risset_03_ParadoxicalSounds (_not yet: under revision_)<br>
 - Risset_04_delayRessonance
@@ -33,6 +33,7 @@ To design this patches I used mainly the following sources:<br>
 
 
 ## Revision history:
+- 2019, August 9: Release on GitHub of _Risset_01_Bells_. B1-Bell example.
 - 2019, August 7: Release on GitHub of _Risset_02_HarmonicCascade_ for Max8. Improved version.
 - 2018, March 17: Release on GitHub of _Risset_04_delayRessonance_. Some improvements and minor changes
 - 2007, April 10:
