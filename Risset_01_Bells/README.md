@@ -16,18 +16,18 @@ Thus, the __`B2-Resonant Sound Spaces`__ folder contains this revised version of
 
 ## Patch List
 - B1-BellExample - a simple patch with a bell component abstraction:.<br>
-    -- _\_jcr.Bell.maxpat_ - the main patch.<br>
-    -- Bell_abs.maxpat - the bell component abstraction.<br>
-    -- bell_functions.txt - a set of amplitude envelope functions.<br>
-    -- README.md - readme file for _B1-BellExample_.<br>
+    - _\_jcr.Bell.maxpat_ - the main patch.<br>
+    - Bell_abs.maxpat - the bell component abstraction.<br>
+    - bell_functions.txt - a set of amplitude envelope functions.<br>
+    - README.md - readme file for _B1-BellExample_.<br>
 
 - B2-Resonant Sound Spaces
-    --  \_plf6.maxpat - The main patch<br>
-    --  bell_part.maxpat - <br>
-    --  PrepareData.maxpat - <br>
-    --  README.md - This read me file<br>
-    --  structbell_seq.txt - <br>
-    --  structbell.txt - <br>
+    -  \_plf6.maxpat - The main patch<br>
+    -  bell_part.maxpat - <br>
+    -  PrepareData.maxpat - <br>
+    -  README.md - This read me file<br>
+    -  structbell_seq.txt - <br>
+    -  structbell.txt - <br>
 
 See local _README_ files for further information.<br>
 
