@@ -1,6 +1,6 @@
 # Jean-Claude Risset's Music V adaptations to MAxMSP
 This repository contains Max/MSP versions and adaptations of Jean-Claude Risset's Music V orchestras and scores.<br>
-NOTE: Update still inprogress due to Max changes.
+NOTE: Update still inprogress.
 
 design and programming<br>
 Antonio de SOUSA DIAS<br>
