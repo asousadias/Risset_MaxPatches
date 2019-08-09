@@ -13,7 +13,7 @@ This is a work I've started in 2000-2001.<br>
 Since then, Max/MSP developed a lot, but I decided to keep some patches unchanged in their core design. <br>
 
 ## Patch List
-- Risset_01_Bell (_under revision_)<br>
+- Risset_01_Bells<br>
 - Risset_02_HarmonicCascade<br>
 - Risset_03_ParadoxicalSounds (_not yet: under revision_)<br>
 - Risset_04_delayRessonance
