@@ -12,11 +12,10 @@ This is the base patch programmed at that time (2000).
 
 
 ## Patch List
-- B1-BellExample - a simple patch with a bell component abstraction:.<br>
--- _\_jcr.Bell.maxpat_ - the main patch.<br>
--- Bell_abs.maxpat - the bell component abstraction.<br>
--- bell_functions.txt - a set of amplitude envelope functions.<br>
--- README.md - this readme file.<br>
+- _\_jcr.Bell.maxpat_ - the main patch.<br>
+- Bell_abs.maxpat - the bell component abstraction.<br>
+- bell_functions.txt - a set of amplitude envelope functions.<br>
+- README.md - this readme file.<br>
 
 ## Operation Mode
 Launch the _\_jcr.Bell.maxpat_.<br>
