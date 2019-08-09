@@ -7,23 +7,23 @@ a.sousadias@belasartes.ulisboa.pt
 
 
 ## Description
-This patch emmulates one of Jean-Claude Risset's patches in _Resonant Sound Spaces_. The difference here concerns:<br>
-1- the use of the <poly~> object in order to provide:<br>
-1a - a limited polyphonic result (see 2.);<br>
-1b - the possibility of defining different component number of partials per bell structure (see 3.);<br>
-2 - the use of the <zigzag~> object instead the <breakpoint function editor> object to increase speed (at the cost of limiting the definition of amplitude functions to the "512 points table functions" style).<br>
-3 - the modification of the "structbell" definition file inserting a number of partials at the end of each basic definition line (see lines 0, 20, 40, etc).<br>
-4 - the insertion of the "structbell_seq" file with some defined lines and the possibility of quick parameters generation.<br>
+This patch emmulates one of Jean-Claude Risset's patches in _Resonant Sound Spaces_ presented in Risset et al. (2002). The difference between that patch and the one presented here concerns:<br>
+- the use of the `poly~` object in order to provide:<br>
+  - a limited polyphonic result (see 2.);<br>
+  - the possibility of defining different component number of partials per bell structure (see 3.);<br>
+- the use of the `zigzag~` object instead the `breakpoint function editor` object to increase speed (at the cost of limiting the definition of amplitude functions to the 512 points table functions style).<br>
+- the modification of the _structbell_ definition file inserting a number of partials at the end of each basic definition line (see lines 0, 20, 40, etc).<br>
+- the insertion of the _structbell_seq_ file with some defined lines and the possibility of quick parameters generation.<br>
 
-The main ideia is to trigger specific voices in the poly~ object, maintaining a circulation. It means that each partial triggers one voice. When voice n. 50 is reached it continues through voice n. 1, etc. Ex.: 1 2 3 ... 47 48 49 50 1 2 3 ...<br>
+The main ideia is to trigger specific voices in the `poly~` object, maintaining a circulation. It means that each partial triggers one voice. When voice n. 50 is reached it continues through voice n. 1, etc. Ex.: 1 2 3 ... 47 48 49 50 1 2 3 ...<br>
 
 ## Patch List
 - \_plf6.maxpat - The main patch<br>
-- bell_part.maxpat - <br>
-- PrepareData.maxpat - <br>
-- README.md - This read me file<br>
-- structbell_seq.txt - <br>
-- structbell.txt - <br>
+- bell_part.maxpat - the abstraction used by the `poly~` object.<br>
+- PrepareData.maxpat - this abstraction prepares and outputs data for the `poly~` object according to incoming data.<br>
+- README.md - This read me file.<br>
+- structbell_seq.txt - data for a `coll` object containing sequence data in the form _startNote_(ignored) _duration_ _amplitude_ _frequency(Hz)_ and _structureNumber_ .<br>
+- structbell.txt - the description of the structures used. It follows the data presented in Lorrain (1980).<br>
 
 ## Operation Mode
 Follow the instructions provided in the main patch comments<br>
