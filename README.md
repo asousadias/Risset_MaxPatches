@@ -28,8 +28,9 @@ To design this patches I used mainly the following sources:<br>
 - RISSET, Jean-Claude (1995). My 1969 Sound Catalogue: Looking Back from 1992. _The historical CD of digital sound synthesis_, CD Wergo 2033-2, 1995, p.88-108.
 - RISSET, Jean Claude (1985). Digital techniques and sound structure in music. ROADS, Curtis (éd.), _Composers and the Computer_, p.113-138.
 - RISSET, Jean-Claude (1989). Paradoxical Sounds. MATHEWS, Max V. ; PIERCE, John R. Current directions in Computer Music Research, p.149 158.
-- RISSET, Jean-Claude (1989). Additive Synthesis of Inharmonic Tones" in MATHEWS, Max V. ; PIERCE, John R. _Current directions in Computer Music_, p.159 163.
+- RISSET, Jean-Claude (1989). Additive Synthesis of Inharmonic Tones" in MATHEWS, Max V. ; PIERCE, John R. _Current directions in Computer Music_, p.159-163.
 - RISSET, Jean Claude, ARFIB, Daniel, DE SOUSA DIAS, António, LORRAIN, Denis, POTTIER, Laurent (2002). De 'Inharmonique' à 'Resonant Sound Spaces':  temps réel et mise en espace. _Actes des neuvièmes Journées d’Informatique Musicale_, Marseille : ADERIM-GMEM, p.83-88.
+- SOUSA DIAS, Antonio (2005). _L'objet sonore : situation, évaluation et potentialités : un paradigme pour la création d'outils de composition musicale_. Paris : Université Paris 8. http://www.sudoc.fr/11136101X
 
 
 ## Revision history:
