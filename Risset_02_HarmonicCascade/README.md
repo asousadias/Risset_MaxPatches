@@ -1,13 +1,12 @@
 # Jean-Claude Risset's Harmonic Cascade
 This folder contains a Max/MSP version of Risset's Harmonic Cascade.<br>
-NOTE: Update still inprogress due to Max changes.
 
 design and programming<br>
 Antonio de SOUSA DIAS<br>
 a.sousadias@belasartes.ulisboa.pt
 
 
-## Description (from Sousa Dias, 2005)
+## Description
 The Harmonic Cascade results from the application of the phenomenon known as beats, applied to the case where there are many components. To better understand the issue, we explain the phenomenon with only two components. The formula that translates it is as follows:<br/>
 `sin (w1) + sin (w2) = 2.sin((w1 + w2) / 2).cos((w1-w2) / 2)`<br/>
 with `w1 = 2πf1` and `w2 = 2πf2`.<br/>
@@ -19,6 +18,7 @@ Thus, this patch realizes the implementation of the harmonic cascade with, accor
 - the waveform can result from the interpolation between two waveforms; this creates a double movement: the movement of the intertwining of the beats of the harmonics and the transformation of these concerning the composition of the spectrum.<br/>
 
 The other characteristics of the patch concern the control of the parameters like the speed of the cascade, which can be defined in Herz or in seconds.<br/>
+ (Sousa Dias 2005)
 
 ## Patch List
 - __\_jcr.HarmonicCascade.maxpat__ - The main HarmonicCascade patch<br/>
