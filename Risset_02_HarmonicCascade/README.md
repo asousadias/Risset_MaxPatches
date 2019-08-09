@@ -7,7 +7,7 @@ Antonio de SOUSA DIAS<br>
 a.sousadias@belasartes.ulisboa.pt
 
 
-## Description (Sousa Dias, 2005)
+## Description (from Sousa Dias, 2005)
 The Harmonic Cascade results from the application of the phenomenon known as beats, applied to the case where there are many components. To better understand the issue, we explain the phenomenon with only two components. The formula that translates it is as follows:<br/>
 `sin (w1) + sin (w2) = 2.sin((w1 + w2) / 2).cos((w1-w2) / 2)`<br/>
 with `w1 = 2πf1` and `w2 = 2πf2`.<br/>
