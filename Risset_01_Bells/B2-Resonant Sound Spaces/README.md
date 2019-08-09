@@ -9,8 +9,8 @@ a.sousadias@belasartes.ulisboa.pt
 ## Description
 This patch emmulates one of Jean-Claude Risset's patches in _Resonant Sound Spaces_ presented in Risset et al. (2002). The difference between that patch and the one presented here concerns:<br>
 - the use of the `poly~` object in order to provide:<br>
-  - a limited polyphonic result (see 2.);<br>
-  - the possibility of defining different component number of partials per bell structure (see 3.);<br>
+  - a limited polyphonic result;<br>
+  - the possibility of defining different component number of partials per bell structure;<br>
 - the use of the `zigzag~` object instead the `breakpoint function editor` object to increase speed (at the cost of limiting the definition of amplitude functions to the 512 points table functions style).<br>
 - the modification of the _structbell_ definition file inserting a number of partials at the end of each basic definition line (see lines 0, 20, 40, etc).<br>
 - the insertion of the _structbell_seq_ file with some defined lines and the possibility of quick parameters generation.<br>
@@ -22,7 +22,7 @@ The main ideia is to trigger specific voices in the `poly~` object, maintaining 
 - bell_part.maxpat - the abstraction used by the `poly~` object.<br>
 - PrepareData.maxpat - this abstraction prepares and outputs data for the `poly~` object according to incoming data.<br>
 - README.md - This read me file.<br>
-- structbell_seq.txt - data for a `coll` object containing sequence data in the form _startNote_(ignored) _duration_ _amplitude_ _frequency(Hz)_ and _structureNumber_ .<br>
+- structbell_seq.txt - data for a `coll` object containing sequence data in the form <_startNote_(ignored) _duration_ _amplitude_ _frequency_(Hz) _structureNumber_>.<br>
 - structbell.txt - the description of the structures used. It follows the data presented in Lorrain (1980).<br>
 
 ## Operation Mode
