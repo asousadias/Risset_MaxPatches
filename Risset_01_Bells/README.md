@@ -62,4 +62,3 @@ Largo da Academia Nacional de Belas-Artes<br>
 1249-058 Lisboa, Portugal<br>
 http://www.belasartes.ulisboa.pt/
 
-www.sousadias.com
