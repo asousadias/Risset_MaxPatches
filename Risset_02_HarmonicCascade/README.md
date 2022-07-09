@@ -3,7 +3,7 @@ This folder contains a Max/MSP version of Risset's Harmonic Cascade.<br>
 
 design and programming<br>
 Antonio de SOUSA DIAS<br>
-a.sousadias@belasartes.ulisboa.pt
+mailto:a.sousadias@belasartes.ulisboa.pt
 
 
 ## Description
